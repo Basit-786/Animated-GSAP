@@ -1,33 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  font-family: Avenir, Arial, Helvetica, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.font-sign {
+  font-family: "Satisfy", cursive;
+  text-wrap: nowrap;
+  word-break: break-all;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.nav-link {
+  position: relative;
+  transition: all ease-in-out 0.4s;
+}
+.nav-link:hover {
+  color: #bda191;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.nav-link::after {
+  content: "";
+  height: 1px;
+  width: 0;
+  background: #bda191;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: all ease-in-out 0.5s;
+}
+.nav-link:hover:after {
+  width: 100%;
 }
