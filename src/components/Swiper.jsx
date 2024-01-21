@@ -11,7 +11,7 @@ const Swiper = () => {
   const triggerRef = useRef();
 
   gsap.registerPlugin(ScrollTrigger);
-  
+
   useEffect(() => {
     // let sectionsWidth =  sectionRef.current.offsetWidth ;
     // let amountToScroll = sectionsWidth - window.innerWidth;

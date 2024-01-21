@@ -37,12 +37,9 @@
   width: 100%;
 }
 
-
-
-.hideScroll::-webkit-scrollbar{
-display: none;
+.hideScroll::-webkit-scrollbar {
+  display: none;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
