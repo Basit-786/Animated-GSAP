@@ -92,25 +92,25 @@ const Collection = () => {
       </div>
       <div className="collection1 min-h-screen flex justify-center flex-col">
         <div className="text-lightBlack uppercase flex items-center justify-between mb-2">
-          <div className="cWrap overflow-hidden">
+          <div className="cWrap2 overflow-hidden">
             <div className=" text-[60px] font-semibold">
               Coming Soon.
             </div>
           </div>
           <Link
             href={"#"}
-            className="cWrap overflow-hidden text-[#CEAC51] hover:text-white hover:bg-black transition-all duration-500 ease-in-out text-[15px] px-[35px] py-[11px] border rounded-[30px] border-black"
+            className="cWrap2 overflow-hidden text-[#CEAC51] hover:text-white hover:bg-black transition-all duration-500 ease-in-out text-[15px] px-[35px] py-[11px] border rounded-[30px] border-black"
           >
             <div className="">Bekijk alle wagens</div>
           </Link>
         </div>
         <div className="flex items-center justify-end">
-          <div className="bg-[#ccc] imgAnimate1Wrap w-[94%] h-[580px] max-h-[75vh] overflow-hidden">
+          <div className="bg-[#ccc] imgAnimate2Wrap w-[94%] h-[580px] max-h-[75vh] overflow-hidden">
             <Image src="/coming.png"
             width={500}
             height={500}
               alt=""
-              className="w-full h-full object-cover object-center imgAnimate"
+              className="w-full h-full object-cover object-center imgAnimate2"
              />
           </div>
         </div>
