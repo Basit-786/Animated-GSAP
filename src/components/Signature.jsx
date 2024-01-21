@@ -26,7 +26,7 @@ const Signature = () => {
   }, []);
 
   return (
-      <div className="flex items-center justify-center gap-16 w-full px-10">
+      <div className="flex items-center justify-center gap-16 w-full px-10 my-20">
         <div className="flex flex-col items-center justify-center gap-[20px] h-full max-w-[650px] text-lightBlack mb-8">
           <div className="">
             <h2 className="text-[45px] uppercase font-normal leading-[60px]">

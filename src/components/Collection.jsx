@@ -18,7 +18,7 @@ const Collection = () => {
       ease: "power4.out",
       opacity: 1,
       delay:0.5,
-      duration: 1.5,
+      duration: 1,
       stagger: {
         amount: 0.4,
       },
@@ -31,8 +31,8 @@ const Collection = () => {
       scrollTrigger: ".imgAnimate1Wrap",
       y: 0,
       opacity: 1,
-      delay: 0.8,
-      duration: 1.4,
+      delay: 0.5,
+      duration: 0.8,
     });
 
     gsap.fromTo(".cWrap2 div",{
@@ -44,7 +44,7 @@ const Collection = () => {
       ease: "power4.out",
       opacity: 1,
       delay:0.5,
-      duration: 1.5,
+      duration: 1,
       stagger: {
         amount: 0.4,
       },
@@ -57,15 +57,15 @@ const Collection = () => {
       scrollTrigger: ".imgAnimate2Wrap",
       y: 0,
       opacity: 1,
-      delay: 0.8,
-      duration: 1.4,
+      delay: 0.5,
+      duration: 0.8,
     });
 
   }, []);
 
   return (
-    <div className="p-5 px-24 py-16"  >
-      <div className="collection1">
+    <div className="p-5 px-24 py-16 space-y-20"  >
+      <div className="collection1 min-h-screen flex justify-center flex-col">
         <div className="text-lightBlack uppercase flex items-center justify-between mb-6">
           <div className="cWrap overflow-hidden">
             <div className=" text-[60px] font-semibold">
@@ -80,17 +80,17 @@ const Collection = () => {
           </Link>
         </div>
         <div className="flex items-center justify-end">
-          <div className="bg-lightWhite imgAnimate1Wrap w-[94%] h-[600px] overflow-hidden">
+          <div className="bg-[#ccc] imgAnimate1Wrap w-[94%] h-[600px] max-h-[75vh] overflow-hidden">
             <Image src="/collection.png"
             width={500}
             height={500}
               alt=""
-              className="w-full object-cover object-center imgAnimate"
+              className="w-full h-full object-cover object-center imgAnimate"
              />
           </div>
         </div>
       </div>
-      <div className="collection2">
+      <div className="collection2 min-h-screen flex justify-center flex-col">
         <div className="text-lightBlack uppercase flex items-center justify-between mb-6">
           <div className="cWrap2 overflow-hidden">
             <div className=" text-[60px] font-semibold">
@@ -105,12 +105,12 @@ const Collection = () => {
           </Link>
         </div>
         <div className="flex items-center justify-end">
-          <div className="bg-lightWhite imgAnimate2Wrap w-[94%] h-[600px] overflow-hidden">
+          <div className="bg-[#ccc] imgAnimate2Wrap w-[94%] h-[600px] max-h-[75vh]  overflow-hidden">
             <Image src="/coming.png"
             width={500}
             height={500}
               alt=""
-              className="w-full object-cover object-center imgAnimate2"
+              className="w-full h-full object-cover object-center imgAnimate2"
              />
           </div>
         </div>

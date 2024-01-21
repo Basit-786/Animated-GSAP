@@ -26,7 +26,7 @@ const Swiper = () => {
         duration: 3,
         scrollTrigger: {
           trigger: triggerRef.current,
-          start: "top 0%",
+          start: "top 0",
           end: "2000 top",
           scrub: 0.6,
           pin: true,
@@ -50,7 +50,7 @@ const Swiper = () => {
         className="flex items-center relative"
       >
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] flex-shrink-0 relative">
+          <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
             <img
               src="/1.jpeg"
               alt=""
@@ -79,7 +79,7 @@ const Swiper = () => {
           </div>
         </div>
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] flex-shrink-0 relative">
+          <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
             <img
               src="/1.jpeg"
               alt=""
@@ -108,7 +108,7 @@ const Swiper = () => {
           </div>
         </div>
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] flex-shrink-0 relative">
+          <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
             <img
               src="/1.jpeg"
               alt=""

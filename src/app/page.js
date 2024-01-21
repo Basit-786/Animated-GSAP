@@ -18,10 +18,9 @@ export default function Home() {
           <Swiper />
           <Signature />
           <Recent />
-          <Feed />
+          {/* <Feed /> */}
         </div>
       </div>
-      <div className="h-screen bg-transparent"></div>
       <Footer />
     </>
   );
