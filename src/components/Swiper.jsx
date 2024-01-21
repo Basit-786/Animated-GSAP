@@ -18,7 +18,7 @@ const Swiper = () => {
         x: 0,
       },
       {
-        x: "-150vw",
+        x: "-170vw",
         ease: "none",
         duration: 1,
         scrollTrigger: {
