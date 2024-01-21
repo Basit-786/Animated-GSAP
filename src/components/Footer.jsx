@@ -34,7 +34,6 @@ const Footer = () => {
 
   return (
     <>
-      <div className="h-screen "></div>
       <div className="bg-[#073737] fixed z-10 bottom-0 left-0 right-0 w-screen h-screen ">
         <div className="footerAnimation max-w-[1400px] mx-auto w-full flex items-center justify-end flex-col px-20 py-10 text-[#FFFFFFCC] h-full">
           <div className="w-full">

@@ -26,9 +26,8 @@ const Signature = () => {
   }, []);
 
   return (
-    <div className="flex flex-nowrap items-center justify-center w-full px-20 py-20 max-w-[1400px] mx-auto">
-      <div className="flex items-end justify-between gap-16 w-full">
-        <div className="flex flex-col gap-[20px] h-full max-w-[550px] text-lightBlack mb-8">
+      <div className="flex items-center justify-between gap-16 w-full px-10">
+        <div className="flex flex-col items-center justify-center gap-[20px] h-full max-w-[550px] text-lightBlack mb-8">
           <div className="">
             <h2 className="text-[50px] uppercase font-normal leading-[60px]">
               Shared love,
@@ -44,7 +43,7 @@ const Signature = () => {
               je onze wereld in stapt stellen wij alles in het werk om jouw
               rijervaring onvergetelijk te maken én te houden.
             </p>
-            <div className="flex flex-col gap-[20px] signTrigger">
+            <div className="flex flex-col gap-[20px] ">
               <div className="flex items-center gap-[10px]">
                 <div className="relative flex items-center">
                   <div className="flex items-center justify-center border border-lightBlack rounded-full p-2">
@@ -102,7 +101,7 @@ const Signature = () => {
             {/* <img src="svg.svg"  alt="" className=""/> */}
           </div>
         </div>
-        <div className="max-w-[450px]">
+        <div className="max-w-[500px]">
           <Image
             width={500}
             height={550}
@@ -112,7 +111,6 @@ const Signature = () => {
           />
         </div>
       </div>
-    </div>
   );
 };
 
