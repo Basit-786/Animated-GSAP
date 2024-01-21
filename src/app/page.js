@@ -15,11 +15,11 @@ export default function Home() {
       >
         <Header />
         <Hero />
-        <div className="max-w-[1400px] mx-auto">
+        <div className="max-w-[1400px] mx-auto px-6">
           <Collection />
         </div>
         <Swiper />
-        <div className="max-w-[1400px] mx-auto">
+        <div className="max-w-[1400px] mx-auto px-6">
           <Signature />
           <Recent />
         </div>

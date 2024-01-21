@@ -11,23 +11,23 @@ const Swiper = () => {
   const triggerRef = useRef();
 
   gsap.registerPlugin(ScrollTrigger);
-
+  
   useEffect(() => {
     // let sectionsWidth =  sectionRef.current.offsetWidth ;
     // let amountToScroll = sectionsWidth - window.innerWidth;
 
-    const pin = gsap.fromTo(
+    let pin = gsap.fromTo(
       sectionRef.current,
       {
         x: 0,
       },
       {
-        x: "-80%",
+        x: "-87%",
         ease: "none",
         duration: 3,
         scrollTrigger: {
           trigger: triggerRef.current,
-          start: "top 0",
+          start: "top 2%",
           end: "2000 top",
           scrub: 0.6,
           pin: true,
