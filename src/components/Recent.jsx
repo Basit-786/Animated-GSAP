@@ -32,13 +32,13 @@ const Recent = () => {
               className="max-w-[250px] shadow-2xl w-full h-full object-cover object-center"
             />
           </div>
-          <div className="">
+          <div className="max-w-[600px] w-full">
             <Image
               width={680}
               height={600}
               src="/rec1.png"
               alt=""
-              className="max-w-[600px] shadow-2xl w-full h-full object-cover object-center"
+              className=" shadow-2xl w-full h-full object-cover object-center"
             />
           </div>
           <div className="bg-white shadow-2xl pl-[90px] pr-[85px] p-[40px] text-black">
@@ -89,13 +89,13 @@ const Recent = () => {
               className="max-w-[250px] shadow-2xl w-full h-full object-cover object-center"
             />
           </div>
-          <div className="">
+          <div className="max-w-[600px] w-full">
             <Image
               width={680}
               height={600}
               src="/re23.png"
               alt=""
-              className="max-w-[600px] shadow-2xl w-full h-full object-cover object-center"
+              className=" shadow-2xl w-full h-full object-cover object-center"
             />
           </div>
           <div className="bg-white shadow-2xl pl-[90px] pr-[85px] p-[40px] text-black">
@@ -146,13 +146,13 @@ const Recent = () => {
               className="max-w-[250px] shadow-2xl w-full h-full object-cover object-center"
             />
           </div>
-          <div className="">
+          <div className="max-w-[600px] w-full">
             <Image
               width={680}
               height={600}
               src="/re33.png"
               alt=""
-              className="max-w-[600px] shadow-2xl w-full h-full object-cover object-center"
+              className=" shadow-2xl w-full h-full object-cover object-center"
             />
           </div>
           <div className="bg-white shadow-2xl pl-[90px] pr-[85px] p-[40px] text-black">
