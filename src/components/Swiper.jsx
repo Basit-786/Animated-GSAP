@@ -18,13 +18,13 @@ const Swiper = () => {
         x: 0,
       },
       {
-        x: "-100%",
+        x: "-150vw",
         ease: "none",
         duration: 1,
         scrollTrigger: {
           trigger: triggerRef.current,
-          start: "top 20%",
-          // end: "1500 top",
+          start: "top 10%",
+          end: "2000 top",
           scrub: 0.6,
           pin: true,
         },
@@ -41,9 +41,9 @@ const Swiper = () => {
       <div
         id="sections"
         ref={sectionRef}
-        className="flex flex-nowrap items-center relative px-20 py-8 gap-32"
+        className="flex items-center justify-between relative px-20 py-8 gap-32"
       >
-        <div className="flex items-center justify-center gap-16">
+        <div className="flex items-center justify-center gap-16 w-[100vw]">
           <div className="w-[600px] h-full">
             <img
               src="/1.jpeg"
@@ -72,7 +72,7 @@ const Swiper = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-16">
+        <div className="flex items-center justify-center gap-16 w-[100vw]">
           <div className="w-[600px] h-full">
             <img
               src="/1.jpeg"
@@ -101,7 +101,7 @@ const Swiper = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-16">
+        <div className="flex items-center justify-center gap-16 w-[100vw]">
           <div className="w-[600px] h-full">
             <img
               src="/1.jpeg"
@@ -130,7 +130,6 @@ const Swiper = () => {
             </div>
           </div>
         </div>
-    
       </div>
     </div>
   );
