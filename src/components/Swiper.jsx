@@ -23,7 +23,7 @@ const Swiper = () => {
         duration: 1,
         scrollTrigger: {
           trigger: triggerRef.current,
-          start: "top 10%",
+          start: "top 5%",
           end: "2000 top",
           scrub: 0.6,
           pin: true,
