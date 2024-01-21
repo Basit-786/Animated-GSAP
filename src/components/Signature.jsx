@@ -26,14 +26,11 @@ const Signature = () => {
   }, []);
 
   return (
-      <div className="flex items-center justify-between gap-16 w-full px-10">
-        <div className="flex flex-col items-center justify-center gap-[20px] h-full max-w-[550px] text-lightBlack mb-8">
+      <div className="flex items-center justify-center gap-16 w-full px-10">
+        <div className="flex flex-col items-center justify-center gap-[20px] h-full max-w-[650px] text-lightBlack mb-8">
           <div className="">
-            <h2 className="text-[50px] uppercase font-normal leading-[60px]">
-              Shared love,
-            </h2>
-            <h2 className="text-[50px] uppercase font-normal ml-12 leading-[60px]">
-              Specialist hands
+            <h2 className="text-[45px] uppercase font-normal leading-[60px]">
+            Passie & Vakmanschap in Specialistische handen
             </h2>
           </div>
           <div className="ml-[100px] space-y-[20px]">
@@ -97,15 +94,12 @@ const Signature = () => {
               </div>
             </div>
           </div>
-          <div className="font-sign  text-[40px] text-center w-[200px] h-[200px]">
-            {/* <img src="svg.svg"  alt="" className=""/> */}
-          </div>
         </div>
-        <div className="max-w-[500px]">
+        <div className="max-w-[400px]">
           <Image
             width={500}
             height={550}
-            src="/sign.jpeg"
+            src="/sign.png"
             alt=""
             className="w-full object-cover object-center"
           />

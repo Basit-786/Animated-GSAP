@@ -9,93 +9,108 @@ import Image from "next/image";
 const Collection = () => {
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
-    gsap.to(".cWrap div", {
+    gsap.fromTo(".cWrap div",{
+      y: '100%',
+      opacity: 0,
+    }, {
       scrollTrigger: ".cWrap",
       y: 0,
       ease: "power4.out",
       opacity: 1,
-      duration: 1.4,
+      delay:0.5,
+      duration: 1.5,
       stagger: {
-        amount: 0.2,
+        amount: 0.4,
       },
     });
     
-    gsap.to(".imgAnimate", {
+    gsap.fromTo(".imgAnimate",{
+      y: '100%',
+      opacity: 0,
+    }, {
       scrollTrigger: ".imgAnimate1Wrap",
       y: 0,
       opacity: 1,
-      ease: "power4.out",
+      delay: 0.8,
       duration: 1.4,
     });
 
-    gsap.to(".cWrap2 div", {
+    gsap.fromTo(".cWrap2 div",{
+      y: '100%',
+      opacity: 0,
+    }, {
       scrollTrigger: ".cWrap2",
       y: 0,
       ease: "power4.out",
       opacity: 1,
-      duration: 1.4,
+      delay:0.5,
+      duration: 1.5,
       stagger: {
-        amount: 0.2,
+        amount: 0.4,
       },
     });
-
-    gsap.to(".imgAnimate2", {
+    
+    gsap.fromTo(".imgAnimate2",{
+      y: '100%',
+      opacity: 0,
+    }, {
       scrollTrigger: ".imgAnimate2Wrap",
       y: 0,
       opacity: 1,
-      ease: "power4.out",
+      delay: 0.8,
       duration: 1.4,
     });
+
   }, []);
 
   return (
-    <div className="container mx-auto p-5 space-y-28 my-32"  >
-      <div className="collection">
-        <div className="text-lightBlack uppercase flex items-center justify-between ">
+    <div className="p-5 px-24 py-16"  >
+      <div className="collection1">
+        <div className="text-lightBlack uppercase flex items-center justify-between mb-6">
           <div className="cWrap overflow-hidden">
-            <div className=" text-[80px] translate-y-60 transform">
+            <div className=" text-[60px] font-semibold">
               Our Collection.
             </div>
           </div>
           <Link
             href={"#"}
-            className="cWrap overflow-hidden text-[15px] px-[32px] py-[12px] border rounded-[30px] border-black"
+            className="cWrap overflow-hidden text-[#CEAC51] hover:text-white hover:bg-black transition-all duration-500 ease-in-out text-[15px] px-[35px] py-[11px] border rounded-[30px] border-black"
           >
-            <div className="translate-y-60 transform">Bekijk alle wagens</div>
+            <div className="">Bekijk alle wagens</div>
           </Link>
         </div>
-        <div className="flex items-center justify-end mt-10 ">
-          <div className="bg-lightWhite imgAnimate1Wrap w-[93%] flex items-center justify-end overflow-hidden">
+        <div className="flex items-center justify-end">
+          <div className="bg-lightWhite imgAnimate1Wrap w-[94%] h-[600px] overflow-hidden">
             <Image src="/collection.png"
             width={500}
             height={500}
               alt=""
-              className="w-full object-cover object-center imgAnimate transform translate-y-[500px] opacity-0"
+              className="w-full object-cover object-center imgAnimate"
              />
           </div>
         </div>
       </div>
-      <div className="collection">
-        <div className="text-lightBlack uppercase flex items-center justify-between ">
-          <div className="cWrap overflow-hidden">
-            <div className=" text-[80px] translate-y-60 transform">
-              Coming Soon.
+      <div className="collection2">
+        <div className="text-lightBlack uppercase flex items-center justify-between mb-6">
+          <div className="cWrap2 overflow-hidden">
+            <div className=" text-[60px] font-semibold">
+              Coming soon.
             </div>
           </div>
           <Link
             href={"#"}
-            className="cWrap2 overflow-hidden text-[15px] px-[32px] py-[12px] border rounded-[30px] border-black"
+            className="cWrap2 overflow-hidden text-[#CEAC51] hover:text-white hover:bg-black transition-all duration-500 ease-in-out text-[15px] px-[35px] py-[11px] border rounded-[30px] border-black"
           >
-            <div className="translate-y-60 transform">Bekijk alle wagens</div>
+            <div className="">Bekijk alle wagens</div>
           </Link>
         </div>
-        <div className="flex items-center justify-end mt-10 ">
-          <div className="bg-lightWhite imgAnimate2Wrap w-[93%] flex items-center justify-end overflow-hidden">
-          <Image src="/coming.png"
+        <div className="flex items-center justify-end">
+          <div className="bg-lightWhite imgAnimate2Wrap w-[94%] h-[600px] overflow-hidden">
+            <Image src="/coming.png"
             width={500}
             height={500}
               alt=""
-              className="w-full object-cover object-center imgAnimate2 transform translate-y-[500px] opacity-0"
+              className="w-full object-cover object-center imgAnimate2"
              />
           </div>
         </div>
