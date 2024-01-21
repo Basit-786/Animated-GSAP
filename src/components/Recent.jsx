@@ -201,7 +201,7 @@ const Recent = () => {
         </p>
       </div>
       <div className="flex items-center flex-nowrap overflow-auto scroll-smooth snap-mandatory snap-center hideScroll">
-        <div className="flex-shrink-0 w-[480px] mr-[3rem]">
+        <div className="flex-shrink-0 w-[480px] h-[250px] mr-[3rem]">
         <Image
               width={600}
               height={650}
@@ -210,7 +210,7 @@ const Recent = () => {
               className="w-full shadow-2xl h-full object-cover object-center"
             />
         </div>
-        <div className="flex-shrink-0 w-[480px] mr-[3rem]">
+        <div className="flex-shrink-0 w-[480px] h-[250px] mr-[3rem]">
         <Image
               width={600}
               height={650}
@@ -219,7 +219,7 @@ const Recent = () => {
               className="w-full shadow-2xl h-full object-cover object-center"
             />
         </div>
-        <div className="flex-shrink-0 w-[480px] mr-[3rem]">
+        <div className="flex-shrink-0 w-[480px] h-[250px] mr-[3rem]">
         <Image
               width={600}
               height={650}

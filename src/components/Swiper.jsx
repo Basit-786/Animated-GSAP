@@ -51,7 +51,7 @@ const Swiper = () => {
         className="flex items-center relative"
       >
         <div className="flex items-center justify-center flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
+          <div className="w-[500px] h-[700px] flex-shrink-0 relative">
             <img
               src="/swipe1.jpeg"
               alt=""
@@ -79,7 +79,7 @@ const Swiper = () => {
           </div>
         </div>
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
+          <div className="w-[500px] h-[700px] flex-shrink-0 relative">
             <img
               src="/swipe2.jpeg"
               alt=""
@@ -107,7 +107,7 @@ const Swiper = () => {
           </div>
         </div>
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
+          <div className="w-[500px] h-[700px] flex-shrink-0 relative">
             <img
               src="/swipe3.png"
               alt=""
@@ -135,7 +135,7 @@ const Swiper = () => {
           </div>
         </div>
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
+          <div className="w-[500px] h-[700px] flex-shrink-0 relative">
             <img
               src="/swipe4.png"
               alt=""
@@ -144,7 +144,7 @@ const Swiper = () => {
           </div>
           <div className="flex flex-col ml-[4rem] gap-[20px] flex-shrink-0 h-full max-w-[500px] text-lightBlack mb-8">
             <h2 className="text-[45px] leading-[55px] uppercase font-normal">
-              DeAankoopervaring - Het Verwezenlijken van Uw Droom-Porsche{" "}
+              De Aankoopervaring - Het Verwezenlijken van Uw Droom-Porsche{" "}
             </h2>
             <p className="text-[#313434CC] text-[20px]">
               Laat ons toegewijde team u persoonlijk begeleiden in het

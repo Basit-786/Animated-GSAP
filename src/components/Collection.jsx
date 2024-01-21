@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Collection = () => {
   gsap.registerPlugin(ScrollTrigger);
+
   useEffect(() => {
     gsap.fromTo(
       ".cWrap div",
@@ -75,42 +76,48 @@ const Collection = () => {
         duration: 0.8,
       }
     );
+
+
   }, []);
 
   return (
-    <div className="p-5 px-2 py-16 space-y-20 ">
-      <div className="collection1 min-h-screen flex justify-center flex-col">
-        <div className="text-lightBlack uppercase flex items-center justify-between mb-2">
-          <div className="cWrap overflow-hidden">
-            <div className=" text-[60px] font-semibold">Our Collection.</div>
+    <div className="p-5 relative px-2 py-16 space-y-20 ">
+      {/* <div className="relative h-[150vh] ctrigger"> */}
+        {/* <div className="relative h-[150vh]"></div> */}
+
+        <div className="box min-h-screen flex justify-center flex-col">
+          <div className="text-lightBlack uppercase flex items-center justify-between mb-2">
+            <div className="cWrap overflow-hidden">
+              <div className=" text-[60px] font-semibold">Our Collection.</div>
+            </div>
+            <Link
+              href={"#"}
+              className="cWrap overflow-hidden text-[#CEAC51] text-[15px] px-[35px] py-[11px] border rounded-[30px] border-black"
+            >
+              <div className="">Bekijk alle wagens</div>
+            </Link>
           </div>
-          <Link
-            href={"#"}
-            className="cWrap overflow-hidden text-[#CEAC51] hover:text-white hover:bg-black transition-all duration-500 ease-in-out text-[15px] px-[35px] py-[11px] border rounded-[30px] border-black"
-          >
-            <div className="">Bekijk alle wagens</div>
-          </Link>
-        </div>
-        <div className="flex items-center justify-end">
-          <div className="bg-[#ccc] imgAnimate1Wrap w-[94%] h-[580px] max-h-[75vh] overflow-hidden">
-            <Image
-              src="/collection.png"
-              width={500}
-              height={500}
-              alt=""
-              className="w-full h-full object-cover object-center imgAnimate"
-            />
+          <div className="flex items-center justify-end">
+            <div className="bg-[#ccc] imgAnimate1Wrap w-[94%] h-[580px] max-h-[75vh] overflow-hidden">
+              <Image
+                src="/collection.png"
+                width={500}
+                height={500}
+                alt=""
+                className="w-full h-full object-cover object-center imgAnimate"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      <div className="collection1 min-h-screen flex justify-center flex-col">
+      {/* </div> */}
+      <div className="box2  min-h-screen flex justify-center flex-col">
         <div className="text-lightBlack uppercase flex items-center justify-between mb-2">
           <div className="cWrap2 overflow-hidden">
             <div className=" text-[60px] font-semibold">Coming Soon.</div>
           </div>
           <Link
             href={"#"}
-            className="cWrap2 overflow-hidden text-[#CEAC51] hover:text-white hover:bg-black transition-all duration-500 ease-in-out text-[15px] px-[35px] py-[11px] border rounded-[30px] border-black"
+            className="cWrap2 overflow-hidden text-[#CEAC51] text-[15px] px-[35px] py-[11px] border rounded-[30px] border-black"
           >
             <div className="">Bekijk alle wagens</div>
           </Link>

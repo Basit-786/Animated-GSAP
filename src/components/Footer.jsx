@@ -1,13 +1,11 @@
 "use client";
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Footer = () => {
-  const triggerRef = useRef();
-
   gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
     gsap.fromTo(
@@ -21,11 +19,11 @@ const Footer = () => {
         scale: 1,
         opacity: 1,
         translate: "0% 0%",
-        duration: 1.8,
-        scrollTrigger: {
+        ease: 'none',
+        duration:1.8,
+         scrollTrigger: {
           trigger: ".main",
           start: "bottom bottom",
-
           scrub: true,
         },
       }
@@ -35,8 +33,8 @@ const Footer = () => {
   return (
     <>
       <div className="h-[680px] bg-transparent"></div>
-      <div className="bg-[#073737] fixed will-change-transform z-10 bottom-0 left-0 right-0 w-screen h-[680px] ">
-        <div className="footerAnimation max-w-[1400px] mx-auto w-full flex items-center justify-between flex-col px-20 py-10 text-[#FFFFFFCC] h-full">
+      <div className="bg-[#073737] fixed z-10 bottom-0 left-0 right-0 w-full h-[680px] ">
+        <div className="footerAnimation flex flex-col justify-between max-w-[1400px] mx-auto w-full px-20 py-3 text-[#FFFFFFCC]">
           <div className="w-full">
             <Image
               src={"/logo.png"}
