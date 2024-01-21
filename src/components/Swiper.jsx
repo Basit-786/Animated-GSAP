@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import Link from "next/link";
@@ -21,7 +22,7 @@ const Swiper = () => {
         x: 0,
       },
       {
-        x: '-80%',
+        x: "-80%",
         ease: "none",
         duration: 3,
         scrollTrigger: {
@@ -49,24 +50,23 @@ const Swiper = () => {
         ref={sectionRef}
         className="flex items-center relative"
       >
-        <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
+        <div className="flex items-center justify-center flex-shrink-0 flex-grow ml-[10rem]">
           <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
             <img
-              src="/1.jpeg"
+              src="/swipe1.jpeg"
               alt=""
               className="w-full h-full object-cover object-center"
             />
           </div>
-          <div className="flex flex-col ml-[4rem] gap-[20px] flex-shrink-0 h-full max-w-[500px] text-lightBlack mb-8">
+          <div className="flex flex-col ml-[10rem] gap-[20px] flex-shrink-0 h-full max-w-[500px] text-lightBlack mb-8">
             <h2 className="text-[45px] leading-[55px] uppercase font-normal">
-              Take a luxurious trip through our extensive brand portfolio
+              De Bijzondere Ervaring van Het Kopen van Een Porsche Oldtimer
             </h2>
             <p className="text-[#313434CC] text-[20px]">
-              DIeteren Luxury Performance is the company of choice for the most
-              prestigious of brands. Thanks to our local dealers, browse our
-              extensive range of vehicles and services designed to meet the
-              exacting requirements and expectations of those who are passionate
-              about luxury and performance.
+              Bij Van Den Berg Car Classic wordt het kopen van een Porsche
+              oldtimer een unieke, bijzondere belevenis. Ontdek onze prachtige
+              collectie, waar onze liefde voor auto's samenkomt met tijdloze
+              elegantie en authentieke klasse.
             </p>
             <div>
               <Link
@@ -81,21 +81,20 @@ const Swiper = () => {
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
           <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
             <img
-              src="/1.jpeg"
+              src="/swipe2.jpeg"
               alt=""
               className="w-full h-full object-cover object-center"
             />
           </div>
           <div className="flex flex-col ml-[4rem] gap-[20px] flex-shrink-0 h-full max-w-[500px] text-lightBlack mb-8">
             <h2 className="text-[45px] leading-[55px] uppercase font-normal">
-              Take a luxurious trip through our extensive brand portfolio
+              Ontdek Onze Bijzondere Porsche Collectie
             </h2>
             <p className="text-[#313434CC] text-[20px]">
-              DIeteren Luxury Performance is the company of choice for the most
-              prestigious of brands. Thanks to our local dealers, browse our
-              extensive range of vehicles and services designed to meet the
-              exacting requirements and expectations of those who are passionate
-              about luxury and performance.
+              Loop onze showroom binnen, waar we elk voertuig met zorg hebben
+              uitgekozen en liefdevol gerestaureerd. Ontdek zeldzame, bijzondere
+              Porsche-modellen die voldoen aan de hoogste normen van kwaliteit
+              en schoonheid.
             </p>
             <div>
               <Link
@@ -110,21 +109,20 @@ const Swiper = () => {
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
           <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
             <img
-              src="/1.jpeg"
+              src="/swipe3.png"
               alt=""
               className="w-full h-full object-cover object-center"
             />
           </div>
           <div className="flex flex-col ml-[4rem] gap-[20px] flex-shrink-0 h-full max-w-[500px] text-lightBlack mb-8">
             <h2 className="text-[45px] leading-[55px] uppercase font-normal">
-              Take a luxurious trip through our extensive brand portfolio
+              Het Proces van Restauratie - Transparantie en Kwaliteit
             </h2>
             <p className="text-[#313434CC] text-[20px]">
-              DIeteren Luxury Performance is the company of choice for the most
-              prestigious of brands. Thanks to our local dealers, browse our
-              extensive range of vehicles and services designed to meet the
-              exacting requirements and expectations of those who are passionate
-              about luxury and performance.
+              Een grondig technisch onderzoek leidt ons restauratieproces, waar
+              openheid en het behoud van originele kenmerken centraal staan.
+              Onze vakbekwame monteurs zorgen voor de onbetwiste kwaliteit van
+              elke Porsche.
             </p>
             <div>
               <Link
@@ -136,7 +134,34 @@ const Swiper = () => {
             </div>
           </div>
         </div>
-      
+        <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
+          <div className="w-[500px] max-h-[80vh] flex-shrink-0 relative">
+            <img
+              src="/swipe4.png"
+              alt=""
+              className="w-full h-full object-cover object-center"
+            />
+          </div>
+          <div className="flex flex-col ml-[4rem] gap-[20px] flex-shrink-0 h-full max-w-[500px] text-lightBlack mb-8">
+            <h2 className="text-[45px] leading-[55px] uppercase font-normal">
+              DeAankoopervaring - Het Verwezenlijken van Uw Droom-Porsche{" "}
+            </h2>
+            <p className="text-[#313434CC] text-[20px]">
+              Laat ons toegewijde team u persoonlijk begeleiden in het
+              aankoopproces. Ervaar de kracht en elegantie van uw gewenste
+              Porsche met een exclusieve proefrit, waar uw dromen werkelijkheid
+              worden.
+            </p>
+            <div>
+              <Link
+                href={"#"}
+                className="text-[#BDA191] inline-block border-b border-[#BDA191] text-[16px] uppercase "
+              >
+                Find out more
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

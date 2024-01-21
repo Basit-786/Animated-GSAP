@@ -43,23 +43,23 @@ const Recent = () => {
           </div>
           <div className="bg-white shadow-2xl pl-[90px] pr-[85px] p-[40px] text-black">
             <h2 className="text-[27px] leading-[39px]">
-            Porsche 911T 2.4 Targa
+            Porsche 911 3.2 Carrera Coupe
             </h2>
             <p className="text-[13px] tracking-[0.2px] my-2">
-            2.4 | Targa | Viper green |
+            3.2 Carrera | Coupe | Preussischblau metallic |
             </p>
             <div className="flex items-center justify-between gap-3 my-6">
               <div className="">
                 <p className="text-[#10182180] text[10px]">Jaar</p>
-                <h5 className="text-black text-[18px] ">1972</h5>
+                <h5 className="text-black text-[18px] ">1985</h5>
               </div>
               <div className="">
                 <p className="text-[#10182180] text[10px]">Km Stand</p>
-                <h5 className="text-black text-[18px] ">15 km</h5>
+                <h5 className="text-black text-[18px] ">200.474 km</h5>
               </div>
               <div className="">
                 <p className="text-[#10182180] text[10px]">Prijs</p>
-                <h5 className="text-black text-[18px] ">€ 139.500,-</h5>
+                <h5 className="text-black text-[18px] ">€ 74.500,-</h5>
               </div>
             </div>
             <div className="mt-8 mb-6">
@@ -157,23 +157,23 @@ const Recent = () => {
           </div>
           <div className="bg-white shadow-2xl pl-[90px] pr-[85px] p-[40px] text-black">
             <h2 className="text-[27px] leading-[39px]">
-            Porsche 911T 2.4 Targa
+            Porsche 3.2 Carrera targa
             </h2>
             <p className="text-[13px] tracking-[0.2px] my-2">
-            2.4 | Targa | Viper green |
+            3.2 | Targa | Grandprixwhite |
             </p>
             <div className="flex items-center justify-between gap-3 my-6">
               <div className="">
                 <p className="text-[#10182180] text[10px]">Jaar</p>
-                <h5 className="text-black text-[18px] ">1972</h5>
+                <h5 className="text-black text-[18px] ">1985</h5>
               </div>
               <div className="">
                 <p className="text-[#10182180] text[10px]">Km Stand</p>
-                <h5 className="text-black text-[18px] ">15 km</h5>
+                <h5 className="text-black text-[18px] ">118.000km</h5>
               </div>
               <div className="">
                 <p className="text-[#10182180] text[10px]">Prijs</p>
-                <h5 className="text-black text-[18px] ">€ 139.500,-</h5>
+                <h5 className="text-black text-[18px] ">€ 72.500,-</h5>
               </div>
             </div>
             <div className="mt-8 mb-6">

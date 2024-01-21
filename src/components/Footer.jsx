@@ -34,9 +34,9 @@ const Footer = () => {
 
   return (
     <>
-      <div className="h-[570px] bg-transparent"></div>
-      <div className="bg-[#073737] fixed will-change-transform z-10 bottom-0 left-0 right-0 w-screen h-[570px] ">
-        <div className="footerAnimation max-w-[1400px] mx-auto w-full flex items-center justify-end flex-col px-20 py-10 text-[#FFFFFFCC] h-full">
+      <div className="h-[680px] bg-transparent"></div>
+      <div className="bg-[#073737] fixed will-change-transform z-10 bottom-0 left-0 right-0 w-screen h-[680px] ">
+        <div className="footerAnimation max-w-[1400px] mx-auto w-full flex items-center justify-between flex-col px-20 py-10 text-[#FFFFFFCC] h-full">
           <div className="w-full">
             <Image
               src={"/logo.png"}
@@ -46,7 +46,7 @@ const Footer = () => {
               alt="LOGO"
             />
           </div>
-          <div className="w-full grid grid-cols-3 py-5 my-10 border-[#423C3A] border-t border-b ">
+          <div className="w-full grid grid-cols-3 py-6 my-12 border-[#423C3A] border-t border-b ">
             <div className="">
               <h3 className="text-[16px] text-lightWhite font-semibold">
                 DISCOVER D’Ieteren <br /> Luxury Performance

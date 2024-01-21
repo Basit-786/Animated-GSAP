@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import Image from "next/image";
 import React, { useEffect } from "react";
@@ -35,10 +36,7 @@ const Signature = () => {
           </div>
           <div className="ml-[100px] space-y-[20px]">
             <p className="text-lightBlack text-[15px] leading-[27px]  tracking-[0.2px]">
-              We zijn er trots op dat wij onze passie voor luxe auto’s mogen
-              delen. Wellicht overbodig om te noemen, maar vanaf het moment dat
-              je onze wereld in stapt stellen wij alles in het werk om jouw
-              rijervaring onvergetelijk te maken én te houden.
+            Van kinderdromen over de Porsche 911 tot het realiseren van unieke juweeltjes. Elk voertuig in onze showroom vertelt een verhaal van toewijding en vakmanschap. Lees het hier op onze 'Over Ons' pagina, waar elke Porsche een unieke reis van passie en precisie vertegenwoordigt
             </p>
             <div className="flex flex-col gap-[20px] ">
               <div className="flex items-center gap-[10px]">
@@ -55,7 +53,7 @@ const Signature = () => {
                   <div className="h-[1px] w-[40px] bg-lightBlack " />
                 </div>
                 <p className="text-[13px] tracking-[3px] uppercase">
-                  Our maintenance
+                Vakmanschap
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
@@ -72,7 +70,7 @@ const Signature = () => {
                   <div className="h-[1px] w-[40px] bg-lightBlack " />
                 </div>
                 <p className="text-[13px] tracking-[3px] uppercase">
-                  Meet the team
+                leer ons kennen
                 </p>
               </div>
               <div className="flex items-center gap-[10px]">
@@ -89,7 +87,7 @@ const Signature = () => {
                   <div className="h-[1px] w-[40px] bg-lightBlack " />
                 </div>
                 <p className="text-[13px] tracking-[3px] uppercase">
-                  Our services
+                onze service
                 </p>
               </div>
             </div>
