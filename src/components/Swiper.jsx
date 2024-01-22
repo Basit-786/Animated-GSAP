@@ -22,7 +22,7 @@ const Swiper = () => {
         x: 0,
       },
       {
-        x: "-87%",
+        x: "-90%",
         ease: "none",
         duration: 3,
         scrollTrigger: {
@@ -51,7 +51,7 @@ const Swiper = () => {
         className="flex items-center relative"
       >
         <div className="flex items-center justify-center flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] h-[700px] flex-shrink-0 relative">
+          <div className="w-[400px] lg:w-[500px] h-[600px] lg:h-[700px] flex-shrink-0 relative">
             <img
               src="/swipe1.jpeg"
               alt=""
@@ -79,7 +79,7 @@ const Swiper = () => {
           </div>
         </div>
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] h-[700px] flex-shrink-0 relative">
+          <div className="w-[400px] lg:w-[500px] h-[600px] lg:h-[700px] flex-shrink-0 relative">
             <img
               src="/swipe2.jpeg"
               alt=""
@@ -107,7 +107,7 @@ const Swiper = () => {
           </div>
         </div>
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] h-[700px] flex-shrink-0 relative">
+          <div className="w-[400px] lg:w-[500px] h-[600px] lg:h-[700px] flex-shrink-0 relative">
             <img
               src="/swipe3.png"
               alt=""
@@ -135,7 +135,7 @@ const Swiper = () => {
           </div>
         </div>
         <div className="flex items-center justify-center gap-16 flex-shrink-0 flex-grow ml-[10rem]">
-          <div className="w-[500px] h-[700px] flex-shrink-0 relative">
+          <div className="w-[400px] lg:w-[500px] h-[600px] lg:h-[700px] flex-shrink-0 relative">
             <img
               src="/swipe4.png"
               alt=""

@@ -24,11 +24,11 @@ const Hero = () => {
       <div className="flex flex-col items-center justify-center text-lightWhite bg-black/50 w-full min-h-screen  h-full">
         <div className="flex items-center gap-[40px]">
           <div className="tWrap relative overflow-hidden">
-            <div className="text-[60px] uppercase translate-y-60 transform">
+            <div className="text-[50px] lg:text-[60px] uppercase translate-y-60 transform">
               Kennis over uw oldtimer Porsche
             </div>
           </div>
-          <div className="flex flex-col text-[13px] leading-[15px] text-lightWhite/80 uppercase font-bold">
+          <div className="flex flex-col text-[12px] lg:text-[13px] leading-[15px] text-lightWhite/80 uppercase font-bold">
             <div className="tWrap overflow-hidden relative">
               <div className=" translate-y-60 transform">Passie</div>
             </div>
@@ -41,11 +41,11 @@ const Hero = () => {
           </div>
         </div>
         <div className="flex gap-[40px]">
-          <div className="tWrap overflow-hidden relative flex  flex-col text-[13px] mt-[10px] leading-[15px] text-lightWhite/80 uppercase font-bold">
+          <div className="tWrap overflow-hidden relative flex  flex-col text-[12px] lg:text-[13px] mt-[10px] leading-[15px] text-lightWhite/80 uppercase font-bold">
             <div className=" translate-y-60 transform">gespecialiseerd</div>
           </div>
           <div className="tWrap overflow-hidden relative">
-            <div className="text-[60px] leading-[65px] uppercase  translate-y-60 transform">
+            <div className="text-[50px] lg:text-[60px] leading-[65px] uppercase  translate-y-60 transform">
               Van Den Berg Car Classic
             </div>
           </div>

@@ -1,3 +1,5 @@
+"use client";
+
 import Collection from "@/components/Collection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -6,7 +8,25 @@ import Recent from "@/components/Recent";
 import Signature from "@/components/Signature";
 import Swiper from "@/components/Swiper";
 
+import "@/css/locomotive-scroll.css";
+import LocomotiveScroll from "locomotive-scroll";
+import { useEffect, useRef } from "react";
+
 export default function Home() {
+  const srollRef = useRef(null);
+
+  useEffect(() => {
+    // if (typeof window !== "undefined") {
+    //   const scroll = new LocomotiveScroll({
+    //     el: srollRef.current,
+    //     smooth: true,
+    //   });
+    //   return () => {
+    //     scroll.destroy();
+    //   };
+    // }
+  }, []);
+
   return (
     <>
       <div
@@ -15,11 +35,11 @@ export default function Home() {
       >
         <Header />
         <Hero />
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1500px] mx-auto px-6">
           <Collection />
         </div>
         <Swiper />
-        <div className="max-w-[1400px] mx-auto px-6">
+        <div className="max-w-[1500px] mx-auto px-6">
           <Signature />
           <Recent />
         </div>

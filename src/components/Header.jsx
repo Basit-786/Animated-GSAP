@@ -18,14 +18,14 @@ const Header = () => {
 
   return (
     <header
-      className={` fixed z-40 top-0 right-0 left-0 w-full ${
+      className={`fixed z-50 top-0 right-0 left-0 w-full ${
         scroll ? "bg-black/40" : "bg-transparent"
       } transition-all duration-300 ease-in-out`}
     >
-      <div className="max-w-[1400px] mx-auto flex items-center justify-between px-10 py-5 w-full">
+      <div className="max-w-[1500px] mx-auto flex items-center justify-between px-16 py-5 lg:py-5 w-full">
         <div
           className={`${
-            scroll ? "w-[50px]" : "w-[120px]"
+            scroll ? "w-[50px]" : "w-[100px] lg:w-[120px]"
           } transition-all duration-300 ease-in-out`}
         >
           <Image
@@ -39,22 +39,22 @@ const Header = () => {
         <ul className="flex items-center gap-5 text-lightWhite text-[13px] leading-[30px] uppercase">
           <li>
             <Link href={"#"} className="nav-link">
-              Who we are
+              Home
             </Link>
           </li>
           <li>
             <Link href={"#"} className="nav-link">
-              Our brands
+              Advies
             </Link>
           </li>
           <li>
             <Link href={"#"} className="nav-link">
-              Experiences
+              Collectie
             </Link>
           </li>
           <li>
             <Link href={"#"} className="nav-link">
-              Contact
+              Over ons
             </Link>
           </li>
         </ul>

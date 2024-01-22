@@ -1,21 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
   font-family: Avenir, Arial, Helvetica, sans-serif;
-  scroll-behavior: smooth;
 }
 
-.font-sign {
-  font-family: "Satisfy", cursive;
-  text-wrap: nowrap;
-  word-break: break-all;
-}
-
-.nav-link {
+/* .nav-link {
   position: relative;
   transition: all ease-in-out 0.4s;
 }
@@ -35,31 +26,27 @@
 }
 .nav-link:hover:after {
   width: 100%;
-}
+} */
 
 .hideScroll::-webkit-scrollbar {
   display: none;
 }
 
-/* width */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 14px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 6px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 6px;
   border: 1px solid #585656;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #444444;
-}
+} */
