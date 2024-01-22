@@ -13,13 +13,19 @@ const Footer = () => {
       {
         scale: 1.05,
         translate: "0% 25%",
+        opacity: 0,
       },
       {
         scale: 1,
         translate: "0% 0%",
+        opacity: 1,
         ease: "none",
         scrollTrigger: {
-          trigger: ".nnn",
+          trigger: ".main",
+          start: "bottom bottom",
+          end: "bottom+=200px bottom",
+          markers: true,
+
           scrub: 1,
         },
       }
@@ -28,8 +34,8 @@ const Footer = () => {
 
   return (
     <>
-      <div className="h-[680px] bg-transparent nnn"></div>
-      <div className="bg-[#073737] fixed z-10 bottom-0 left-0 right-0 w-full h-[680px] ">
+      <div className="h-[580px] bg-transparent nnn"></div>
+      <div className="bg-[#073737] fixed z-10 bottom-0 left-0 right-0 w-full h-[580px] ">
         <div className="relative">
           <div className="max-w-[1500px] footerAnimation mx-auto w-full px-20 py-3 text-[#FFFFFFCC]">
             <div className="w-[100px] lg:w-[150px] mt-6">

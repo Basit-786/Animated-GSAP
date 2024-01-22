@@ -1,3 +1,5 @@
+"use client";
+
 import Collection from "@/components/Collection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -5,8 +7,16 @@ import Hero from "@/components/Hero";
 import Recent from "@/components/Recent";
 import Signature from "@/components/Signature";
 import Swiper from "@/components/Swiper";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
 
   return (
     <>
