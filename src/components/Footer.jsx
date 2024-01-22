@@ -24,8 +24,6 @@ const Footer = () => {
           trigger: ".main",
           start: "bottom bottom",
           end: "bottom+=200px bottom",
-          markers: true,
-
           scrub: 1,
         },
       }
