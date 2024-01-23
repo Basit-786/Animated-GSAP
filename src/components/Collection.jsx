@@ -13,18 +13,29 @@ const Collection = () => {
       scrollTrigger: {
         trigger: ".box",
         start: "top top",
-        end: "=+100px",
+        end: "=+30px",
         pin: true,
         pinSpacing: true,
         // markers: true,
-        scrub: 1,
+        // scrub: 1,
+      },
+    });
+    gsap.to(".box1", {
+      scrollTrigger: {
+        trigger: ".box1",
+        start: "top top",
+        end: "=+300px",
+        pin: true,
+        pinSpacing: true,
+        // markers: true,
+        // scrub: 1,
       },
     });
     gsap.to(".box2", {
       scrollTrigger: {
         trigger: ".box2",
         start: "top top",
-        end: "=+100px",
+        end: "=+300px",
         pin: true,
         pinSpacing: true,
         // markers: true,
@@ -103,7 +114,8 @@ const Collection = () => {
 
   return (
     <div className="p-5 relative px-16 py-16 space-y-20 ">
-      <div className="box min-h-screen flex justify-center flex-col relative">
+            <div className="box"></div>
+      <div className="box1 min-h-screen flex justify-center flex-col relative">
         <div className="relative w-full mx-[5%] lg:mx-auto">
           <div className="text-lightBlack absolute z-20 top-[4%] w-full -left-[6%] lg:-left-[6%] uppercase flex items-center justify-between mb-2">
             <div className="flex items-center justify-between w-[90%] lg:w-full">
@@ -133,6 +145,8 @@ const Collection = () => {
           </div>
         </div>
       </div>
+      <div className="box"></div>
+
       <div className="box2 min-h-screen flex justify-center flex-col relative">
         <div className="relative w-full mx-[5%] lg:mx-auto">
           <div className="text-lightBlack absolute z-20 top-[4%] w-full -left-[6%] lg:-left-[6%] uppercase flex items-center justify-between mb-2">
