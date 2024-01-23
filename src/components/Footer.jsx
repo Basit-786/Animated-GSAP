@@ -23,7 +23,8 @@ const Footer = () => {
         scrollTrigger: {
           trigger: ".main",
           start: "bottom bottom",
-          end: "bottom+=200px bottom",
+          end: "+=200px",
+          // markers: true,
           scrub: 1,
         },
       }

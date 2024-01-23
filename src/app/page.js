@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <>
       <div
-        className="main relative z-20 bg-[#F5F5F5] overflow-x-hidden"
+        className="main relative z-20 bg-[#F5F5F5] overflow-x-hidden  overflow-auto" 
         id="main"
       >
         <Header />

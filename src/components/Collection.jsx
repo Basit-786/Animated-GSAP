@@ -9,6 +9,29 @@ const Collection = () => {
   gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
+    gsap.to(".box", {
+      scrollTrigger: {
+        trigger: ".box",
+        start: "top top",
+        end: "=+100px",
+        pin: true,
+        pinSpacing: true,
+        // markers: true,
+        scrub: 1,
+      },
+    });
+    gsap.to(".box2", {
+      scrollTrigger: {
+        trigger: ".box2",
+        start: "top top",
+        end: "=+100px",
+        pin: true,
+        pinSpacing: true,
+        // markers: true,
+        scrub: 2,
+      },
+    });
+
     gsap.fromTo(
       ".cWrap div",
       {
@@ -110,7 +133,7 @@ const Collection = () => {
           </div>
         </div>
       </div>
-      <div className="box min-h-screen flex justify-center flex-col relative">
+      <div className="box2 min-h-screen flex justify-center flex-col relative">
         <div className="relative w-full mx-[5%] lg:mx-auto">
           <div className="text-lightBlack absolute z-20 top-[4%] w-full -left-[6%] lg:-left-[6%] uppercase flex items-center justify-between mb-2">
             <div className="flex items-center justify-between w-[90%] lg:w-full">
